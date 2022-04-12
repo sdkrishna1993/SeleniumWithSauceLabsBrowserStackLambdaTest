@@ -30,8 +30,8 @@ public class BaseTest {
 		sauceOpts.setCapability("name", methodName);
 		sauceOpts.setCapability("build", "Java-W3C-Examples");
 		sauceOpts.setCapability("seleniumVersion", "3.141.59");
-		sauceOpts.setCapability("username", "naveenanimation20");
-		sauceOpts.setCapability("accessKey", "f418309b-b7b4-424d-825c-0d4a78b90bb5");
+		sauceOpts.setCapability("username", "oauth-sdkrishna1993-22c6c");
+		sauceOpts.setCapability("accessKey", "97648bcc-756f-4d06-91fb-5da5e8c0acf3");
 		sauceOpts.setCapability("tags", "w3c-chrome-tests");
 
 		DesiredCapabilities cap = new DesiredCapabilities();
