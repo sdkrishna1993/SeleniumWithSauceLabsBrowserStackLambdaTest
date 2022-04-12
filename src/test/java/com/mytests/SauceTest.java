@@ -24,5 +24,11 @@ public class SauceTest extends BaseTest{
 		doLogin();
 		Assert.assertTrue(driver.findElements(By.xpath("//button[text()='Add to cart']")).size() == 6);
 	}
+	
+	@Test(priority = 3)
+	public void checkqaintyAccess() {
+		driver.get("https://qainty.xactlycorporation.local/xlsweb/login.do?useLegacy=1");
+		
+	}
 
 }
